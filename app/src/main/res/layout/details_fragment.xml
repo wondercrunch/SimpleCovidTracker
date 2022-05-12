@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".fragment.DetailsFragment"
+    android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_details_title"
+            android:textSize="@dimen/details_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#472B2B"/>
+<!--*******************************************************-->
+
+        <TextView
+            android:textSize="@dimen/details_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_header_total"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_details_total_confirmed"
+            android:textSize="@dimen/details_value"
+            android:textColor="@color/confirmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/details_margin_value"
+            />
+
+        <TextView
+            android:id="@+id/tv_details_total_deaths"
+            android:textSize="@dimen/details_value"
+            android:textColor="@color/deaths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/details_margin_value"
+            />
+
+        <TextView
+            android:id="@+id/tv_details_total_recovered"
+            android:visibility="invisible"
+            android:textSize="@dimen/details_value"
+            android:textColor="@color/recovered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/details_margin_value"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#472B2B"/>
+<!--*******************************************************-->
+
+        <TextView
+            android:textSize="@dimen/details_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_header_new"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_details_new_confirmed"
+            android:textSize="@dimen/details_value"
+            android:textColor="@color/confirmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/details_margin_value"
+            />
+
+        <TextView
+            android:id="@+id/tv_details_new_deaths"
+            android:textSize="@dimen/details_value"
+            android:textColor="@color/deaths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/details_margin_value"
+            />
+
+        <TextView
+            android:id="@+id/tv_details_new_recovered"
+            android:visibility="invisible"
+            android:textSize="@dimen/details_value"
+            android:textColor="@color/recovered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/details_margin_value"
+            />
+
+
+</LinearLayout>

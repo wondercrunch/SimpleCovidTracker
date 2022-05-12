@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="global_value">18sp</dimen>
+    <dimen name="global_title">18sp</dimen>
+    <dimen name="details_title">18sp</dimen>
+    <dimen name="details_value">18sp</dimen>
+    <dimen name="details_header">20sp</dimen>
+    <dimen name="details_margin_value">8dp</dimen>
+</resources>
