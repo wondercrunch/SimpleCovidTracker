@@ -50,7 +50,7 @@
 
         <TextView
             android:id="@+id/tv_details_total_recovered"
-            android:visibility="invisible"
+            android:visibility="visible"
             android:textSize="@dimen/details_value"
             android:textColor="@color/recovered"
             android:layout_width="match_parent"
@@ -92,7 +92,7 @@
 
         <TextView
             android:id="@+id/tv_details_new_recovered"
-            android:visibility="invisible"
+            android:visibility="visible"
             android:textSize="@dimen/details_value"
             android:textColor="@color/recovered"
             android:layout_width="match_parent"
